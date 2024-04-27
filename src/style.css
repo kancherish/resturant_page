@@ -1,0 +1,189 @@
+@font-face {
+    font-family: luigi;
+    src: url(./assests/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: jersey;
+    src: url(./assests/fonts/Jersey15-Regular.ttf);
+}
+
+.selected-btn{
+    background-color: #E3FEF7;
+    color: #31363F;
+    border-top-left-radius: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+    color: #E3FEF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    background-color: #31363F;
+    border-radius: 20px;
+}
+
+.logo{
+    font-family: luigi;
+    font-size: 2rem;
+}
+
+.main{
+    padding: 5vh 10vw 5vh 10vw;
+}
+
+.mainBox{
+    height: 75vh;
+    width:80vw;
+    background-color: #E3FEF7;
+    border: 2px solid #EEE4B1;
+    border-radius: 10px;
+}
+
+.nav{
+    height: 10%;
+    background-color: #31363F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav ul{
+    display: flex;
+    gap:1rem;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 1.5em;
+    padding: 1em;;
+}
+
+.nav-item:hover{
+    background-color: #535C91;
+    cursor: pointer;
+}
+
+#content{
+    height: 90%;
+}
+
+.home{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+.sideBar{
+   grid-column: 1/2;
+   grid-row: 1/3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.info{
+    width:80%;
+    border: 2px solid #222831;
+    border-radius: 30px;
+    padding: 0.5em;
+    color: #31363F;
+    text-align: center;
+    font-size: 3em;
+    background-color: aliceblue;
+    font-family: jersey;
+
+}
+
+.content1{
+   
+}
+
+.head{
+    color: #222831;
+    font-size: 1.5em;
+    font-family: luigi;
+}
+
+.videos{
+    padding: 0.5em;
+    display: flex;
+    gap:0.5em;
+}
+
+.aboutText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutInfo{
+    background-color: aliceblue;
+    color: #222831;
+    width: 60%;
+    height: 80%;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: luigi;
+}
+
+.aboutImage{
+    width: 40%
+}
+
+.aboutImage > img{
+    width:95%;
+    height:80%;
+}
+
+.contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #31363F;
+    font-family: luigi;
+}
+.contactText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.channelLink > img{
+    width: 1em;
+}
+
+
+.footer{
+    background-color: #0F0F0F;
+    text-align: center;
+}
+
+.footer a{
+    color: aliceblue;
+}
