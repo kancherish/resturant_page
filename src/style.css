@@ -102,12 +102,13 @@ body{
 
 .info{
     width:80%;
+    max-height:80%;
     border: 2px solid #222831;
     border-radius: 30px;
     padding: 0.5em;
     color: #31363F;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     background-color: aliceblue;
     font-family: jersey;
 
